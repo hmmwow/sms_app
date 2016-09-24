@@ -1,11 +1,8 @@
-
 class TextMeController < ApplicationController
-
 
 	def send_sms
 		message = params[:message]
 		number = params[:number]
-
 		account_sid = 'ACa33c9801a93472246259babbd4238c8c'
 		auth_token = '481942d33189799a3e7412eefff3d9f3'
 
